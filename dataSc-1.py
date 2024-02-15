@@ -20,3 +20,5 @@ def num_of_friend(user):
     friend_ids = friendships[user_id]
     return len(friend_ids)
 print(num_of_friend({"id":0,"name":"Hero"}))
+total_connections = sum(num_of_friend(user) for user in users)
+print(total_connections)

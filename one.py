@@ -7,3 +7,9 @@ plt.title("Years and GDP")
 plt.xlabel('Years')
 plt.ylabel('GDP')
 plt.show()
+
+movies=['RRR','BAHUBALI','3 IDIOTS','12th FAIL','DRISHYAM']
+num_awards=[4,3,15,3,5]
+plt.bar(movies,num_awards,color='black')
+plt.title("Movies and Awards")
+plt.yticks(range(20))

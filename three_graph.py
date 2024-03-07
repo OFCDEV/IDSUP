@@ -9,3 +9,4 @@ for i in enumerate(variance):
 plt.plot(xs, variance,'r',label='Variance')
 plt.plot(xs, bias_squared,'g',label='Bias_S')
 plt.plot(xs, total_error,'b',label='Variance')
+plt.legend(loc=9)

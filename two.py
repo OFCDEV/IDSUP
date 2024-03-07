@@ -5,3 +5,4 @@ lst=[min(grade//10*10,90)for grade in grades]
 print(lst)
 histogram = Counter(lst)
 print(histogram)
+plt.bar(histogram.keys(),histogram.values(),width=9)
